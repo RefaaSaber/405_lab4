@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Great Auto Parts - Order Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 600px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        textarea {
+            height: 120px;
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Page Title -->
+  <h1>Lab 04: CSS Structure and Properties</h1>
+
+  <hr>
+
+<div class="container">
+    <h1>Great Auto Parts - Order Form</h1>
+
+    <form>
+        <label>First Name:</label>
+        <input type="text" placeholder="Enter your first name" required>
+
+        <label>Last Name:</label>
+        <input type="text" placeholder="Enter your last name" required>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email address" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" placeholder="Enter your phone number">
+
+        <label>Make:</label>
+        <input type="text" placeholder="Make">
+
+        <label>Model:</label>
+        <input type="text" placeholder="Model">
+
+        <label>Year:</label>
+        <input type="number" placeholder="Year" min="1980" max="2026">
+
+        <label>Date:</label>
+        <input type="date">
+
+        <label>Spare Part:</label>
+        <input type="text" placeholder="Enter the spare part you need">
+
+        <label>Quantity:</label>
+        <input type="number" placeholder="Enter quantity" min="1">
+
+        <label>Comment:</label>
+        <textarea placeholder="Enter your comment"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
